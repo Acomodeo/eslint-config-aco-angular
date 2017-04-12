@@ -111,7 +111,7 @@
         "multiline-ternary": "warn",
         "no-continue": "warn",
         "max-depth": "warn",
-        "max-len": [ "warn", 80 ],
+        "max-len": [ "warn", 100 ],
         "max-lines": "warn",
         "max-statements-per-line": "warn",
         "no-negated-condition": "warn",
