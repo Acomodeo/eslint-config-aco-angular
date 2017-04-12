@@ -1,0 +1,42 @@
+{
+    "name": "eslint-config-aco-angular",
+
+    "version": "0.1.0",
+
+    "description": "Angular 1.x EsLint shareable config",
+
+    "main": "index.js",
+
+    "scripts": {},
+
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Acomodeo/eslint-config-aco-angular.git"
+    },
+
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "angular",
+        "acomodeo"
+    ],
+
+    "author": "Leon Strauss <leon.strauss@acomodeo.com>",
+
+    "license": "MIT",
+
+    "bugs": {
+        "url": "https://github.com/Acomodeo/eslint-config-aco-angular/issues"
+    },
+
+    "homepage": "https://github.com/Acomodeo/eslint-config-aco-angular#readme",
+
+    "dependencies": {
+        "eslint-plugin-angular": "^2.2.1",
+        "eslint-config-angular": "^0.5.0"
+    },
+
+    "peerDependencies": {
+        "eslint": ">= 3"
+    }
+}

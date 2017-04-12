@@ -1,0 +1,123 @@
+{
+    "extends": [
+        "angular",
+        "eslint:recommended"
+    ],
+
+    "parserOptions": {
+        "ecmaVersion": 5
+    },
+
+    "env": {
+        "browser": true
+    },
+
+    "settings": {
+        "angular": 1
+    },
+
+    "rules": {
+        "angular/controller-as-vm": [ "error", "self" ],
+        "angular/function-type": [ "error", "named" ],
+
+        "no-compare-neg-zero": "error",
+        "no-prototype-builtins": "error",
+        "no-console": ["error", { "allow": ["error"] } ],
+        "consistent-return": "error",
+        "dot-notation": "error",
+        "no-caller": "error",
+        "no-alert": "error",
+        "no-eval": "error",
+        "no-extra-bind": "error",
+        "no-implied-eval": "error",
+        "no-invalid-this": "error",
+        "no-iterator": "error",
+        "no-labels": "error",
+        "no-lone-blocks": "error",
+        "no-loop-func": "error",
+        "no-multi-spaces": "error",
+        "no-new-func": "error",
+        "no-new-wrappers": "error",
+        "yoda": "error",
+        "no-with": "error",
+        "no-void": "error",
+        "no-useless-escape": "error",
+        "no-useless-concat": "error",
+        "no-useless-call": "error",
+        "no-unused-expressions": "error",
+        "no-unmodified-loop-condition": "error",
+        "no-sequences": "error",
+        "no-self-compare": "error",
+        "no-script-url": "error",
+        "no-return-assign": "error",
+        "no-proto": "error",
+        "no-octal-escape": "error",
+        "no-catch-shadow": "error",
+        "no-delete-var": "error",
+        "no-shadow-restricted-names": "error",
+        "no-undef": "error",
+        "no-undef-init": "error",
+        "block-spacing": [ "error", "always" ],
+        "brace-style": [ "error", "1tbs", { "allowSingleLine": true } ],
+        "comma-spacing": "error",
+        "comma-style": "error",
+        "eol-last": "error",
+        "func-call-spacing": "error",
+        "func-style": [ "error", "declaration" ],
+        "indent": [ "error", 4, { "SwitchCase": 1 } ],
+        "key-spacing": "error",
+        "linebreak-style": "error",
+        "newline-before-return": "error",
+        "newline-per-chained-call": "error",
+        "no-bitwise": "error",
+        "no-array-constructor": "error",
+        "no-nested-ternary": "error",
+        "no-new-object": "error",
+        "no-lonely-if": "error",
+        "no-mixed-operators": "error",
+        "no-multi-assign": "error",
+        "no-trailing-spaces": [ "error", { "skipBlankLines": true } ],
+        "no-unneeded-ternary": "error",
+        "no-whitespace-before-property": "error",
+        "nonblock-statement-body-position": [ "error", "below" ],
+        "quotes": [ "error", "single" ],
+        "padded-blocks": ["error", "never"],
+        "object-curly-spacing": ["error", "always"],
+        "operator-assignment": "error",
+        "semi-spacing": "error",
+        "space-before-blocks": "error",
+        "space-before-function-paren": [ "error", "never" ],
+        "space-infix-ops": "error",
+        "space-unary-ops": [ 2, {
+            "words": true,
+            "nonwords": false
+        }],
+        "unicode-bom": "error",
+
+        "angular/log": "warn",
+        "angular/definedundefined": "warn",
+
+        "no-else-return": "warn",
+        "block-scoped-var": "warn",
+        "no-div-regex": "warn",
+        "no-magic-numbers": [ "warn", { "ignore": [ 0, 1, -1 ] } ],
+        "no-param-reassign": "warn",
+        "no-shadow": "warn",
+        "array-bracket-spacing": [ "warn", "always" ],
+        "camelcase": "warn",
+        "comma-dangle": [ "warn", "never" ],
+        "func-name-matching": "warn",
+        "line-comment-position": "warn",
+        "multiline-ternary": "warn",
+        "no-continue": "warn",
+        "max-depth": "warn",
+        "max-len": [ "warn", 80 ],
+        "max-lines": "warn",
+        "max-statements-per-line": "warn",
+        "no-negated-condition": "warn",
+        "func-names": "warn",
+
+        "angular/no-service-method": "off",
+        "semi": "off"
+    }
+}
