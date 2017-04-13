@@ -93,6 +93,7 @@
             "nonwords": false
         }],
         "unicode-bom": "error",
+        "semi": [ "error", "never" ],
 
         "angular/log": "warn",
         "angular/definedundefined": "warn",
