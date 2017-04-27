@@ -118,7 +118,7 @@
         "no-negated-condition": "warn",
         "func-names": "warn",
 
-        "angular/no-service-method": "off",
-        "semi": "off"
+
+        "angular/no-service-method": "off"
     }
 }
