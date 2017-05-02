@@ -102,7 +102,6 @@
         "block-scoped-var": "warn",
         "no-div-regex": "warn",
         "no-magic-numbers": [ "warn", { "ignore": [ 0, 1, -1 ] } ],
-        "no-param-reassign": "warn",
         "no-shadow": "warn",
         "array-bracket-spacing": [ "warn", "always" ],
         "camelcase": "warn",
@@ -118,6 +117,8 @@
         "no-negated-condition": "warn",
         "func-names": "warn",
 
+
+        "no-param-reassign": "off",
 
         "angular/no-service-method": "off"
     }
