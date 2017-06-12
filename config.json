@@ -1,8 +1,4 @@
 {
-    "plugins": [
-        "filenames"
-    ],
-
     "extends": [
         "angular",
         "eslint:recommended"
