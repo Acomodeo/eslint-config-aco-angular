@@ -1,4 +1,8 @@
 {
+    "plugins": [
+        "filenames"
+    ],
+
     "extends": [
         "angular",
         "eslint:recommended"
@@ -57,6 +61,8 @@
         "no-shadow-restricted-names": "error",
         "no-undef": "error",
         "no-undef-init": "error",
+        "array-bracket-spacing": [ "error", "always" ],
+        "computed-property-spacing": ["error", "never"],
         "block-spacing": [ "error", "always" ],
         "brace-style": [ "error", "1tbs", { "allowSingleLine": true } ],
         "comma-spacing": "error",
@@ -103,7 +109,6 @@
         "no-div-regex": "warn",
         "no-magic-numbers": [ "warn", { "ignore": [ 0, 1, -1 ] } ],
         "no-shadow": "warn",
-        "array-bracket-spacing": [ "warn", "always" ],
         "camelcase": "warn",
         "comma-dangle": [ "warn", "never" ],
         "func-name-matching": "warn",
