@@ -25,6 +25,6 @@
     "eslint-config-angular": "^0.5.0"
   },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 4"
   }
 }
