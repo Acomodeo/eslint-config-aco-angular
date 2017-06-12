@@ -68,7 +68,7 @@
         "func-style": [ "error", "declaration" ],
         "indent": [ "error", 4, { "SwitchCase": 1 } ],
         "key-spacing": "error",
-        "keyword-spacing": [ "error", "always" ],
+        "keyword-spacing": [ "error", { "after": true } ],
         "linebreak-style": "error",
         "newline-per-chained-call": "error",
         "no-bitwise": "error",
