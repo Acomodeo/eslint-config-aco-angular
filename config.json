@@ -90,12 +90,13 @@
         "space-before-blocks": "error",
         "space-before-function-paren": [ "error", "never" ],
         "space-infix-ops": "error",
-        "space-unary-ops": [ 2, {
+        "space-unary-ops": [ "error", {
             "words": true,
             "nonwords": false
         }],
         "unicode-bom": "error",
         "semi": [ "error", "never" ],
+        "curly": [ "error", "multi-or-nest", "consistent" ],
         "padding-line-between-statements": [ "error", {
             "blankLine": "always",
             "prev": "*",
