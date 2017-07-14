@@ -202,7 +202,6 @@
         "func-name-matching": "warn",
         "line-comment-position": "warn",
         "multiline-ternary": "warn",
-        "no-continue": "warn",
         "max-depth": "warn",
         "max-len": [ "warn", 100 ],
         "max-lines": "warn",
