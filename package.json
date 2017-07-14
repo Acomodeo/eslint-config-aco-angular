@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-aco-angular",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "description": "Angular 1.x EsLint shareable config",
   "main": "index.js",
   "scripts": {},
